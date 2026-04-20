@@ -1,0 +1,8 @@
+Place your trained potato_model.h5 file in this folder.
+
+The FastAPI backend will automatically load it on startup.
+
+Expected path: backend/model/potato_model.h5
+
+If no model is found, the app runs in DEMO MODE which still shows
+realistic predictions based on the uploaded image hash.
